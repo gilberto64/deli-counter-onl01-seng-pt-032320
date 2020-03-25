@@ -29,7 +29,7 @@ def now_serving(other_deli)
   if other_deli.size == 0 
     puts "There is nobody waiting to be served!"
   else
-    var = "Currently serving "
+    puts "Currently serving #{other_deli[0]} "
     other_deli.each do |name| 
     
   
